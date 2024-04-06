@@ -1,4 +1,4 @@
-#Projeto Clone do Website da Apple
+# Projeto Clone do Website da Apple
 
 Este é um projeto de site estático criado como um clone do website da Apple, usando apenas HTML e CSS. Abaixo estão as instruções sobre como navegar e entender a estrutura desses arquivos.
 
