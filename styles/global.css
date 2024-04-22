@@ -1,0 +1,404 @@
+:root {
+  --bg-primary: #000000;
+  --text-light: #ffffff;
+  --text-dark: #1d1d1f;
+  --title-primary-color: #f5f5f7;
+  --subtitle-color: #6e6e73;
+  --action-color: #2997ff;
+  --spirited-main-color: #ded2b9;
+}
+
+header {
+  background-color: var(--bg-primary);
+  color: var(--text-light);
+  height: fit-content;
+  opacity: 0.9;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  padding: 12px 0;
+}
+
+header nav ul {
+  margin: 0 auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+header nav ul li {
+  min-width: fit-content;
+  height: fit-content;
+  padding: 0 0.75rem;
+  font-size: small;
+  cursor: pointer;
+
+  list-style: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+main section {
+  text-align: center;
+  position: relative;
+}
+
+main section img {
+  width: 100%;
+  height: auto;
+}
+
+main section a {
+  color: var(--action-color);
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+main section a:hover {
+  text-decoration: underline;
+}
+
+main .main-section h1 {
+  color: var(--title-primary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main .main-section h2 {
+  color: var(--subtitle-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .main-section sub {
+  font-size: 0.9rem;
+}
+
+main .main-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .spirited-section > div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+main .spirited-section > div:last-child {
+  bottom: 50px;
+}
+
+main .spirited-section > div:first-child {
+  top: 105px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 60%;
+}
+
+main .spirited-section > div:first-child p {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  color: var(--spirited-main-color);
+  letter-spacing: -0.6px;
+}
+
+main .spirited-section p {
+  color: var(--title-primary-color);
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.11px;
+}
+
+main .spirited-section span {
+  color: var(--text-light);
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: block;
+  letter-spacing: 0.23px;
+}
+
+main .iphone-section h2 {
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main .iphone-section p {
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .iphone-section .link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .iphone-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .iphone-pro-section h2 {
+  color: var(--title-primary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main .iphone-pro-section p {
+  color: var(--text-light);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .iphone-pro-section .link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .iphone-pro-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .ipad-section h2 {
+  color: var(--bg-primary);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main .ipad-section p {
+  color: var(--bg-primary);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .ipad-section .link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .ipad-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .airpods-section h2 {
+  color: var(--bg-primary);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;
+}
+
+main .airpods-section p {
+  color: var(--bg-primary);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .airpods-section .link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .airpods-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .watch-section p {
+  color: var(--text-light);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .watch-section .link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .watch-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .watch-ultra-section p {
+  color: var(--bg-primary);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+main .watch-ultra-section .link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .watch-ultra-section .text-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+main .iphone-pro-section p {
+    color: var(--text-light);
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 1rem;
+  }
+  
+  main .card-section .link-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  main .card-section .text-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os containers */
+    padding: 20px;
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+    justify-content: center;
+  }
+  
+  .section {
+    width: calc(50% - 10px); /* 50% do espaço, menos a metade do espaçamento */
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .section h2 {
+    margin-top: 0;
+  }
+  
+  .section p {
+    margin-bottom: 0;
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #gallery-section {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Centralizar imagens */
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Estilo do footer */
+  footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+
